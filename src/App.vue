@@ -1,11 +1,4 @@
-<!--
-  Name: Mark Erolle D. Quiambao
-  Section: WD - 303
--->
 
-<!--
-  Im not sure why sir but my output in stackblitz does not match the output i created when i does the live server 
--->
 
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
@@ -21,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
                 <img src="https://scontent.fcrk1-5.fna.fbcdn.net/v/t1.15752-9/459385970_1247035506732029_3558658731421739884_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGg_v3qcZDQyMqz7SzYYN22mE-4OalazUiYT7g5qVrNSGDhnptT8uQ-RurkpWJyxV2e5xUHBY2cBrPNMyaFnSvM&_nc_ohc=gy04839LHUMQ7kNvgEjAXnJ&_nc_ht=scontent.fcrk1-5.fna&_nc_gid=Anr6Ku4Pyg6nGZPdJHbwNHP&oh=03_Q7cD1QHOzQiDQvtEi7NiCp6_WwzSkhsDTcR2ze1HaKvZYtqbQg&oe=670E24F8" alt="profile Picture">
                 <!-- My name and my Course -->
                 <div class="name">
-                    <h2>Mark Erolle D. Quiambao</h2>
+                    <h2>{{ name }}</h2>
                     <h2>Webdev</h2>
                 </div>
                 <hr>
@@ -132,7 +125,6 @@ import HelloWorld from './components/HelloWorld.vue'
             </div>
         </div>
 </template>
-
 <script>
 export default {
   name: 'App',
